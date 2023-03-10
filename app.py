@@ -205,16 +205,16 @@ if uploaded_file is not None:
                                 value='Time Domain', placeholder="'Time Domain' By default")
         t_ylabel = st.text_input(label='Specify the label of y-axis of the time domain plot:',
                                  value='Amplitude', placeholder="'Amplitude' By default")
-        t_line_color = st.text_input(label='Specify the color of the line chart of the time domain:',
-                                     value='#0000FF', placeholder="'#0000FF' By default")
+        t_line_color = st.color_picker(
+            label='Specify the color of the line chart of the time domain:', value='#0000FF')
 
         # Configuration of the frequency domain
         f_title = st.text_input(label='Specify the title of the frequency domain:',
                                 value='Frequency Domain', placeholder="'Frequency Domain' By default")
         f_ylabel = st.text_input(label='Specify the label of y-axis of the frequency domain plot:',
                                  value='Amplitude', placeholder="'Amplitude' By default")
-        f_line_color = st.text_input(label='Specify the color of the line chart of the frequency domain:',
-                                     value='#FF0000', placeholder="'#FF0000' By default")
+        f_line_color = st.color_picker(
+            label='Specify the color of the line chart of the frequency domain:', value='#FF0000')
 
     # DFT using the class Fourier
     signal_spectrum = Fourier(signal=signal, sampling_rate=sampling_rate)

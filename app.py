@@ -81,6 +81,7 @@ class Fourier:
         Args:
             ylabel (String): Label of the y-axis in Time-Domain
             title (String): Title of the Time-Domain plot
+            line_color (String): The color of the line chart (HTML Code)
 
         Returns:
             One figure: the time-domain.
@@ -109,20 +110,20 @@ class Fourier:
 
         Args:
             ylabel (String): Label of the y-axis in Frequency-Domain
-            title (String): Title of the Time-Domain plot
-            f_title (String): Title of the Frequency-Domain plot 
+            title (String): Title of the frequency-Domain plot
+            line_color (String): The color of the line chart (HTML Code)
 
         Returns:
             One figure: the frequency-domain.
         """
-        # Time Domain
+        # Frequency Domain
         self.fig = px.line(x=self.frequencies, y=self.amplitude())
         self.fig.update_layout({"title": {"text": title,
                                           "font": {"size": 30, "family": "Times New Roman, bold"},
                                           "x": 0.5,
                                           "xanchor": "center",
                                           "yanchor": "top"},
-                                "xaxis": {"title": "Time [sec]"},
+                                "xaxis": {"title": "Frequency [Hz]"},
                                 "yaxis": {"title": ylabel},
                                 "hovermode": "x unified"
                                 })

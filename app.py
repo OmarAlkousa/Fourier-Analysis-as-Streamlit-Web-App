@@ -172,7 +172,8 @@ st.markdown("""---""")
 # Fast Example of the app
 st.markdown("### Import the signal file (.csv)")
 st.markdown("If you want a fast try of this app and you don't have any signal file, you can download example file that is in the same \
-            [**GitHub repository**](https://github.com/OmarAlkousa/Fourier-Analysis-as-Streamlit-Web-App/blob/main/example.csv) of the app.")
+            [**GitHub repository**](https://github.com/OmarAlkousa/Fourier-Analysis-as-Streamlit-Web-App/blob/main/example.csv) of the app. \
+            The sampling rate of our example signal is **360.0** sample per second.")
 
 # Upload the file of the signal (only .csv)
 uploaded_file = st.file_uploader(

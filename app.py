@@ -163,10 +163,16 @@ st.markdown("#### Note:")
 st.markdown("Make sure to specify the exact sampling rate of the signal, otherwise you might end up with the wrong frequency resolution \
             (or even worse... **Aliasing**).")
 
-st.markdown("Get the code of this web app following the [**GitHub link**]().")
+st.markdown(
+    "Get the code of this web app following the [**GitHub link**](https://github.com/OmarAlkousa/Fourier-Analysis-as-Streamlit-Web-App.git).")
 
 # Horizontal Separator Line
 st.markdown("""---""")
+
+# Fast Example of the app
+st.markdown("### Import the signal file (.csv)")
+st.markdown("If you want a fast try of this app and you don't have any signal file, you can download example file that is in the same \
+            [**GitHub repository**](https://github.com/OmarAlkousa/Fourier-Analysis-as-Streamlit-Web-App/blob/main/example.csv) of the app.")
 
 # Upload the file of the signal (only .csv)
 uploaded_file = st.file_uploader(

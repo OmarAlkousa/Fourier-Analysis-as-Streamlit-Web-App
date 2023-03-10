@@ -136,7 +136,7 @@ class Fourier:
 ###################################
 
 # Set a title of the app
-st.markdown("<h1 style='text-align: center; color: black;'>Fourier Analysis</h1>",
+st.markdown("<h1 style='text-align: center; color: grey;'>Fourier Analysis</h1>",
             unsafe_allow_html=True)
 # Explanation of the web app
 st.markdown("Digital signal processing (DSP) is the computation of mathematical methods used to manipulate signal data. \

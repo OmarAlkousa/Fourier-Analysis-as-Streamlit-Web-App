@@ -162,7 +162,7 @@ st.markdown("This web app allows you to decompose your signals or time series us
 st.markdown("#### Note:")
 
 st.markdown("Make sure to specify the exact sampling rate of the signal, otherwise you might end up with the wrong frequency resolution \
-            (or even worse... **Aliasing**).")
+            (or even worse...👻 **Aliasing** 👻).")
 
 st.markdown(
     "Get the code of this web app following the [**GitHub link**](https://github.com/OmarAlkousa/Fourier-Analysis-as-Streamlit-Web-App.git).")

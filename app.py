@@ -40,7 +40,7 @@ class Fourier:
         self.signal = signal
         self.sampling_rate = sampling_rate
         self.time_step = 1.0/self.sampling_rate
-        self.duration = len(self.signal)//self.sampling_rate
+        self.duration = len(self.signal)/self.sampling_rate
         self.time_axis = np.arange(0, self.duration, self.time_step)
         self.frequencies = scipy.fft.rfftfreq(
             len(self.signal), d=self.time_step)

@@ -10,3 +10,29 @@ Below is an illustration of the app while using Fourier Analysis on the [example
 
 https://user-images.githubusercontent.com/64659365/224492034-7c047c10-034b-4be4-b41c-e9f61479e089.mp4
 
+___
+
+## Acknowledgment:
+[**[1]**](https://docs.streamlit.io/library/get-started/installation) Streamlit library, Get started, Installation. [Accessed on 9/3/2023]
+
+[**[2]**](https://docs.streamlit.io/library/get-started/main-concepts) Streamlit library, Get started, Main concepts. [Accessed on 9/3/2023]
+
+[**[3]**](https://docs.streamlit.io/library/get-started/create-an-app) Streamlit library, Get started, Create an app. [Accessed on 9/3/2023]
+
+[**[4]**](https://docs.streamlit.io/library/api-reference/text/st.markdown) Streamlit library, API reference, Text elements (st.markdown). [Accessed on 9/3/2023]
+
+[**[5]**](https://docs.streamlit.io/library/api-reference/performance/st.cache_data) Streamlit library, API reference, Performance (@st.cache_data). [Accessed on 9/3/2023]
+
+[**[6]**](https://docs.streamlit.io/library/api-reference/widgets/st.file_uploader) Streamlit library, API reference, Input widgets (st.file_uploader). [Accessed on 9/3/2023]
+
+[**[7]**](https://docs.streamlit.io/library/api-reference/widgets/st.number_input) Streamlit library, API reference, Input widgets (st.number_input). [Accessed on 9/3/2023]
+
+[**[8]**](https://docs.streamlit.io/library/api-reference/layout/st.expander) Streamlit library, API reference, Layouts and containers (st.expander). [Accessed on 9/3/2023]
+
+[**[9]**](https://docs.streamlit.io/library/api-reference/widgets/st.color_picker) Streamlit library, API reference, Input widgets (st.color_picker). [Accessed on 9/3/2023]
+
+[**[10]**](https://docs.streamlit.io/library/api-reference/charts/st.plotly_chart) Streamlit library, API reference, Chart elements (st.plotly_chart). [Accessed on 9/3/2023]
+
+___
+
+## Keep in touch: [LinkedIn](https://www.linkedin.com/in/omar-alkousa).
